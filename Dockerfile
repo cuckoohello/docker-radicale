@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Jean-Christophe Saad-Dupuy <jc.saaddupuy@fsfe.org>
+MAINTAINER Guillaume Deflaux
 
 ENV DEBIAN_FRONTEND noninteractive
 
