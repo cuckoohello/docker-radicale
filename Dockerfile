@@ -9,7 +9,7 @@ RUN apt-get install -y python2.7 python-pip python-ldap
 ######
 
 ## Radicale installation
-RUN pip install radicale
+RUN pip install https://github.com/cuckoohello/Radicale/archive/1.1.x.zip
 ######
 
 # Adds a custom non root user with home directory
