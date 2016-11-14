@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 ## Base packages
 RUN apt-get update -qq && apt-get upgrade -y -qq
-RUN apt-get install -y python2.7 python-pip python-ldap git
+RUN apt-get install -y python2.7 python-pip python-ldap git python-dev
 ######
 
 ## Radicale installation
